@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.darkvenice.particleopacity.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "TerrainParticleMixin",
+    "BreakingItemParticleProviderMixin",
+    "BreakingItemParticleMixin",
+    "SingleQuadParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

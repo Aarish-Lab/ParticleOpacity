@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "particleopacity",
+  "version": "${version}",
+  "name": "ParticleOpacity",
+  "description": "Client-side opacity controls for block-breaking and edible-item particles.",
+  "authors": ["DarkVenice"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.darkvenice.particleopacity.ParticleOpacity"
+    ],
+    "modmenu": [
+      "com.darkvenice.particleopacity.ModMenuEntrypoint"
+    ]
+  },
+  "mixins": [
+    "particleopacity.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "=26.1.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "modmenu": ">=18.0.2"
+  }
+}
